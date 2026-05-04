@@ -1,0 +1,115 @@
+/* Page layout */
+.page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f7fa;
+}
+
+/* Card container */
+.card {
+  background: #fff;
+  padding: 30px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Label */
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+/* Input */
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input:focus {
+  border-color: #000;
+}
+
+/* Helper text */
+.helper {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Error */
+.error {
+  color: red;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+/* Success */
+.success {
+  color: green;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #333;
+}
+
+/* Reset button (optional) */
+.btn-reset {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #eee;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Password field */
+.password-box {
+  display: flex;
+  align-items: center;
+}
+
+.show-btn {
+  margin-left: 8px;
+  padding: 8px 10px;
+  border: none;
+  background: #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Button row */
+.btn-row {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
